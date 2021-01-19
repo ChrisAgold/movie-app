@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+/*ADD BUTTONS*/
+.add-btn {
+    float: right;
+    margin-right: 50px;
+}
+
+/*NAVBAR TITLE*/
+#nav-title {
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.navbar {
+    margin-left: auto;
+    color: cornflowerblue;
+}
+
+/*CARDS*/
+.card-title {
+    color: cornflowerblue;
+}
+
+/*LOADING DISPLAY*/
+.boxLoading {
+    color: cornflowerblue;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+/*ADD INPUTS*/
+.input-field {
+    background-color: #FFFAFA;
+    font-weight: bold;
+}
+
+.delete-btn, .edit-btn {
+    color: white;
+    margin: 10px 0.4em 20px 10px;
+    align-content: center;
+
+}
+
+
+

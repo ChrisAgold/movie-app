@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="movie-app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!--NAV BAR-->
+<nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand" id="nav-title">MOVIE APP</a>
+    <span class="form-inline add-btn">
+        <h5>Title:</h5> <input class="input-field" type="text" name="title" value=""><br>
+        <h5>Year:</h5> <input class="input-field" type="text" name="year" value=""><br>
+        <h5>Rating:</h5> <input class="input-field" type="text" name="rating" value=""><br>
+        <button type="button" class="btn btn-primary btn-md btn-block" style="margin-top: 5px">Add</button>
+    </span>
+</nav><hr>
+
+<!--OUTPUTS FOR JSON DATA-->
+<div class="output1"></div>
+<div id="loading"></div>
+<div id="movieResult"></div>
+
+<script src="../app.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
